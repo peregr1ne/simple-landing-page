@@ -91,25 +91,64 @@ ul {
   width: 40%;
 }
 
+.badge {
+  background-color: #1a366b;
+  border: 1px solid #3b82f6;
+  font-size: 10.5px;
+  width: 200px;
+  color: #8ec5fd;
+  text-align: center;
+  border-radius: 7px;
+  padding: 2px 7px;
+  margin-bottom: 10px;
+}
+
 .p-hero {
   font-size: 18px;
   color: #e5e7eb;
-
+  font-weight: 100;
   padding: 10px 0;
+}
+
+.button-holder {
+  display: flex;
+  gap: 15px;
 }
 
 button {
   background-color: #3b82f6;
-  padding: 6px 26px;
+  padding: 10.5px 28px;
   border-radius: 8px;
   border: none;
   color: #e5e7eb;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 12.25px;
+  font-weight: 400;
+  transition: all 300ms ease-in-out;
+  letter-spacing: 0.8px;
+}
+
+button:hover {
+  background-color: #004eca;
 }
 
 .hero button {
   margin-top: 10px;
+}
+
+.demo-hero {
+  background: #1d2a57;
+  border: 1px solid #f8f8f8;
+  padding: 6px 26px;
+  border-radius: 8px;
+  color: #e5e7eb;
+  font-size: 12.25px;
+  font-weight: 400;
+  transition: all 300ms ease-in-out;
+}
+
+.demo-hero:hover {
+  background: #f8f8f8;
+  color: #3b82f6;
 }
 
 .picside {
@@ -383,7 +422,7 @@ button {
   border-radius: 8px;
   border: none;
   color: #3b82f6;
-  font-size: 14px;
+  font-size: 12.25px;
   font-weight: 400;
   transition: all 300ms ease-in-out;
 }
@@ -399,7 +438,7 @@ button {
   padding: 6px 26px;
   border-radius: 8px;
   color: #e5e7eb;
-  font-size: 14px;
+  font-size: 12.25px;
   font-weight: 400;
   transition: all 300ms ease-in-out;
 }
