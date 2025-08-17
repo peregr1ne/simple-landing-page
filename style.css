@@ -495,6 +495,12 @@ footer {
   font-weight: 200;
 }
 
+.footer-text a {
+  text-decoration: none;
+  color: #94a1b6;
+  font-size: 14px;
+}
+
 .footer-text p {
   margin-top: 5px;
   font-size: 12px;
